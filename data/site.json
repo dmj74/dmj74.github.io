@@ -13,7 +13,11 @@
     "role": "برنامه‌نویس",
     "loves": "",
     "about": "",
-    "avatar": null,
+    "avatar": {
+      "path": "media/mux9i4rvjmsp.jpg",
+      "mime": "image/jpeg",
+      "name": "1000062959.jpg"
+    },
     "avatarText": "م"
   },
   "bg": {
