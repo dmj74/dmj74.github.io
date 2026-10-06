@@ -124,15 +124,15 @@
     "telegram": {
       "enabled": true,
       "id": "dmj74",
-      "address": "پیامتو بنویس"
+      "address": "dmj74"
     },
     "instagram": {
       "enabled": true,
       "id": "dmj.74",
-      "address": "Instagram"
+      "address": "dmj.74"
     },
     "email": {
-      "enabled": true,
+      "enabled": false,
       "id": "majeedj01@gmail.com",
       "address": "majeedj01@gmail.com"
     },
