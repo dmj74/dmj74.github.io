@@ -105,19 +105,10 @@
   ],
   "music": [
     {
-      "id": "m1",
-      "title": "Miss U at Sunset",
-      "artist": "Piano",
-      "duration": "04:06",
-      "source": "link",
-      "url": "",
-      "file": null
-    },
-    {
-      "id": "m2",
-      "title": "I Can’t Get You Out Of My Head",
-      "artist": "Linkin Park",
-      "duration": "03:21",
+      "id": "m1791326721296",
+      "title": "آهنگ جدید",
+      "artist": "",
+      "duration": "",
       "source": "link",
       "url": "",
       "file": null
@@ -142,26 +133,26 @@
     },
     "email": {
       "enabled": true,
-      "id": "info@example.com",
-      "address": "info@example.com"
+      "id": "majeedj01@gmail.com",
+      "address": "majeedj01@gmail.com"
     },
     "youtube": {
       "enabled": true,
-      "id": "",
-      "address": ""
+      "id": "dmj 74",
+      "address": "dmj 74"
     },
     "x": {
       "enabled": true,
-      "id": "",
-      "address": ""
+      "id": "dmj_74",
+      "address": "dmj_74"
     },
     "whatsapp": {
-      "enabled": true,
+      "enabled": false,
       "id": "",
       "address": ""
     },
     "phone": {
-      "enabled": true,
+      "enabled": false,
       "id": "",
       "address": ""
     }
