@@ -163,13 +163,13 @@
   "contacts": {
     "telegram": {
       "enabled": true,
-      "id": "your_telegram",
-      "address": "@your_telegram"
+      "id": "dmj74",
+      "address": "پیامتو بنویس"
     },
     "instagram": {
       "enabled": true,
-      "id": "your_instagram",
-      "address": "@your_instagram"
+      "id": "dmj.74",
+      "address": "Instagram"
     },
     "email": {
       "enabled": true,
