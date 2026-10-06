@@ -6,6 +6,7 @@
     "salt": "0515e583db578b5a16a773bd",
     "hash": "5d97e6bef1cdb4b0467591b749f9f6ba199890eb80943805a186e30a628ec8c8"
   },
+  "msgEndpoint": "f9f8ee78-8e53-477f-8e5f-d9c9d62f6c48",
   "title": "majid jafari",
   "profile": {
     "name": "dmj74",
@@ -196,6 +197,5 @@
       "address": ""
     }
   },
-  "messages": [],
-  "msgEndpoint": ""
+  "messages": []
 }
