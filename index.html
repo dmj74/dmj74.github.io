@@ -5,6 +5,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
 <meta name="theme-color" content="#050409">
 <title>dmj74 | پروفایل شخصی</title>
+<!-- آیکون سایت (SVG درون‌خطی — بدون فایل اضافه) -->
+<link rel="icon" type="image/svg+xml" href='data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%234da6ff'/%3E%3Cstop offset='1' stop-color='%230a84ff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='15' fill='url(%23g)'/%3E%3Ctext x='32' y='44' font-family='-apple-system,Segoe UI,Arial,sans-serif' font-size='30' font-weight='800' fill='%23fff' text-anchor='middle'%3Ed7%3C/text%3E%3C/svg%3E'>
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="mask-icon" href='data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%234da6ff'/%3E%3Cstop offset='1' stop-color='%230a84ff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='15' fill='url(%23g)'/%3E%3Ctext x='32' y='44' font-family='-apple-system,Segoe UI,Arial,sans-serif' font-size='30' font-weight='800' fill='%23fff' text-anchor='middle'%3Ed7%3C/text%3E%3C/svg%3E' color="#0a84ff">
+<!-- SEO -->
+<meta name="description" id="metaDesc" content="dmj74 — پروفایل شخصی: مهارت‌ها، نمونه‌کارها، گالری تصاویر، موسیقی، پروژه‌ها و راه‌های ارتباطی.">
+<meta name="author" content="dmj74">
+<meta name="robots" content="index, follow">
+<meta name="format-detection" content="telephone=no">
+<link rel="canonical" href="https://dmj74.ir/">
+<!-- پیش‌نمایش لینک (تلگرام / واتساپ / ایکس / فیسبوک) -->
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="dmj74">
+<meta property="og:locale" content="fa_IR">
+<meta property="og:title" id="ogTitle" content="dmj74 | پروفایل شخصی">
+<meta property="og:description" id="ogDesc" content="مهارت‌ها، نمونه‌کارها، گالری تصاویر، موسیقی، پروژه‌ها و راه‌های ارتباطی.">
+<meta property="og:url" content="https://dmj74.ir/">
+<meta property="og:image" content="https://dmj74.ir/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="dmj74 | پروفایل شخصی">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" id="twTitle" content="dmj74 | پروفایل شخصی">
+<meta name="twitter:description" id="twDesc" content="مهارت‌ها، نمونه‌کارها، گالری تصاویر، موسیقی، پروژه‌ها و راه‌های ارتباطی.">
+<meta name="twitter:image" content="https://dmj74.ir/og.png">
 <style>
 /* =====================================================================
    iOS 26 — Liquid Glass theme (به‌سبک iPhone) · dmj74
@@ -1318,6 +1343,20 @@ async function saveBg(){
   workingSite.bg.opacity=parseInt($('bgOp').value,10);
   try{await persistSite(workingSite);toast('ذخیره شد ✔');reRenderPublic(workingSite);}catch(err){toast('خطا: '+err.message);}
 }
+/* به‌روزرسانی متاتگ‌های SEO/پیش‌نمایش از داده‌ی سایت */
+function applyMeta(site){
+  try{
+    const name=(site.profile&&site.profile.name)||'dmj74';
+    const role=(site.profile&&site.profile.role)||'';
+    const about=((site.profile&&site.profile.about)||'').replace(/\s+/g,' ').trim();
+    const short=(about?about.slice(0,150):'مهارت‌ها، نمونه‌کارها، گالری تصاویر، موسیقی، پروژه‌ها و راه‌های ارتباطی.');
+    const title=name+' | پروفایل';
+    const desc=name+(role?' — '+role:'')+' · '+short;
+    const set=(id,v)=>{const e=$(id);if(e)e.setAttribute('content',v);};
+    set('metaDesc',desc);set('ogTitle',title);set('ogDesc',desc);
+    set('twTitle',title);set('twDesc',desc);
+  }catch(e){}
+}
 function applyBg(){
   const site=currentSite();
   const bg=$('bgCover');const im=site&&site.bg&&site.bg.image?refUrl(site.bg.image):'';
@@ -1775,6 +1814,7 @@ function renderAll(){
   $('aboutText').textContent=site.profile.about||'';
   $('shellTitle').textContent=site.profile.name||site.title||'dmj74';
   document.title=(site.profile.name||'dmj74')+' | پروفایل';
+  applyMeta(site);
   // منوی کشویی
   $('dName').textContent=site.profile.name||'';
   $('dRole').textContent=site.profile.role||'';
@@ -2204,5 +2244,8 @@ async function boot(){
 }
 boot();
 </script>
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a467aaa2bfba88b5',t:'MTc5MTMyMTE3MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"dmj74","alternateName":"dmj74.ir","url":"https://dmj74.ir/","jobTitle":"برنامه‌نویس","description":"پروفایل شخصی dmj74 — مهارت‌ها، نمونه‌کارها، پروژه‌ها و راه‌های ارتباطی."}
+</script>
+</body>
 </html>
