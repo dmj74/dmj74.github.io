@@ -1,0 +1,201 @@
+{
+  "creds": {
+    "username": "dmj74",
+    "algo": "pbkdf2",
+    "iter": 120000,
+    "salt": "0515e583db578b5a16a773bd",
+    "hash": "5d97e6bef1cdb4b0467591b749f9f6ba199890eb80943805a186e30a628ec8c8"
+  },
+  "title": "majid jafari",
+  "profile": {
+    "name": "dmj74",
+    "role": "برنامه‌نویس",
+    "loves": "عاشق فوتبال و گیم و برنامه‌نویسی",
+    "about": "",
+    "avatar": null,
+    "avatarText": "م"
+  },
+  "bg": {
+    "image": null,
+    "opacity": 55
+  },
+  "skills": [
+    {
+      "cat": "زبان‌ها",
+      "items": [
+        "Python",
+        "PHP",
+        "JavaScript",
+        "HTML / CSS"
+      ]
+    },
+    {
+      "cat": "فریم‌ورک‌ها",
+      "items": [
+        "Django",
+        "FastAPI",
+        "Laravel",
+        "React"
+      ]
+    },
+    {
+      "cat": "پایگاه داده",
+      "items": [
+        "MySQL",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    {
+      "cat": "ابزارها",
+      "items": [
+        "Docker",
+        "Linux",
+        "Git"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "title": "طراحی وب‌سایت",
+      "desc": "طراحی و توسعه کامل وب‌سایت، از بک‌اند تا رابط کاربری.",
+      "tech": [
+        "PHP",
+        "Laravel",
+        "React"
+      ],
+      "image": null,
+      "file": null,
+      "link": ""
+    },
+    {
+      "id": "p2",
+      "title": "ربات‌های تلگرامی",
+      "desc": "ربات‌های اتوماسیون، فروش و پشتیبانی.",
+      "tech": [
+        "Python",
+        "FastAPI",
+        "Redis"
+      ],
+      "image": null,
+      "file": null,
+      "link": ""
+    },
+    {
+      "id": "p3",
+      "title": "ربات‌های ترید و داشبورد مدیریتی",
+      "desc": "ربات معامله‌گر، پنل مدیریت و گزارش‌گیری لحظه‌ای.",
+      "tech": [
+        "Python",
+        "PostgreSQL",
+        "Django"
+      ],
+      "image": null,
+      "file": null,
+      "link": ""
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "pf1",
+      "title": "فروشگاه آنلاین",
+      "desc": "فروشگاه با درگاه پرداخت و پنل مدیریت.",
+      "tech": [
+        "Laravel",
+        "MySQL"
+      ],
+      "image": null,
+      "link": "",
+      "year": "1403",
+      "category": "وب‌سایت",
+      "status": "فعال"
+    },
+    {
+      "id": "pf2",
+      "title": "ربات فروش تلگرام",
+      "desc": "ربات فروش و پشتیبانی خودکار.",
+      "tech": [
+        "Python",
+        "FastAPI"
+      ],
+      "image": null,
+      "link": "",
+      "year": "1402",
+      "category": "ربات",
+      "status": "فعال"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "g1",
+      "caption": "",
+      "image": null
+    }
+  ],
+  "music": [
+    {
+      "id": "m1",
+      "title": "Miss U at Sunset",
+      "artist": "Piano",
+      "duration": "04:06",
+      "source": "link",
+      "url": "",
+      "file": null
+    },
+    {
+      "id": "m2",
+      "title": "I Can’t Get You Out Of My Head",
+      "artist": "Linkin Park",
+      "duration": "03:21",
+      "source": "link",
+      "url": "",
+      "file": null
+    }
+  ],
+  "hobbies": [
+    "فوتبال",
+    "گیم",
+    "برنامه‌نویسی",
+    "موسیقی"
+  ],
+  "contacts": {
+    "telegram": {
+      "enabled": true,
+      "id": "your_telegram",
+      "address": "@your_telegram"
+    },
+    "instagram": {
+      "enabled": true,
+      "id": "your_instagram",
+      "address": "@your_instagram"
+    },
+    "email": {
+      "enabled": true,
+      "id": "info@example.com",
+      "address": "info@example.com"
+    },
+    "youtube": {
+      "enabled": true,
+      "id": "",
+      "address": ""
+    },
+    "x": {
+      "enabled": true,
+      "id": "",
+      "address": ""
+    },
+    "whatsapp": {
+      "enabled": true,
+      "id": "",
+      "address": ""
+    },
+    "phone": {
+      "enabled": true,
+      "id": "",
+      "address": ""
+    }
+  },
+  "messages": [],
+  "msgEndpoint": ""
+}
