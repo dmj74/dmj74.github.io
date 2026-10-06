@@ -24,42 +24,7 @@
     "image": null,
     "opacity": 55
   },
-  "skills": [
-    {
-      "cat": "زبان‌ها",
-      "items": [
-        "Python",
-        "PHP",
-        "JavaScript",
-        "HTML / CSS"
-      ]
-    },
-    {
-      "cat": "فریم‌ورک‌ها",
-      "items": [
-        "Django",
-        "FastAPI",
-        "Laravel",
-        "React"
-      ]
-    },
-    {
-      "cat": "پایگاه داده",
-      "items": [
-        "MySQL",
-        "PostgreSQL",
-        "Redis"
-      ]
-    },
-    {
-      "cat": "ابزارها",
-      "items": [
-        "Docker",
-        "Linux",
-        "Git"
-      ]
-    }
-  ],
+  "skills": [],
   "projects": [
     {
       "id": "p1",
