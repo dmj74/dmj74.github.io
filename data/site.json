@@ -29,7 +29,7 @@
   "projects": [
     {
       "id": "p1",
-      "title": "طراحی وب‌سایت",
+      "title": "تیتانلی",
       "desc": "طراحی و توسعه کامل وب‌سایت، از بک‌اند تا رابط کاربری.",
       "tech": [
         "PHP",
@@ -45,7 +45,7 @@
           "name": "titanali-cafebazaar.apk"
         }
       },
-      "link": ""
+      "link": "http://cafebazaar.ir/app/?id=ir.titanali.app&ref=share"
     },
     {
       "id": "p3",
