@@ -1,32 +1,33 @@
 {
   "creds": {
-    "username": "dmj74",
+    "username": "admin",
     "algo": "pbkdf2",
     "iter": 120000,
-    "salt": "0515e583db578b5a16a773bd",
-    "hash": "5d97e6bef1cdb4b0467591b749f9f6ba199890eb80943805a186e30a628ec8c8"
+    "salt": "dmj74/9f3c1a",
+    "hash": "b74e7274cc424a46190ad3bef20349a5a0365eac20f4a17fa9c4fdf369f386db"
   },
-  "msgEndpoint": "f9f8ee78-8e53-477f-8e5f-d9c9d62f6c48",
-  "title": "majid jafari",
+  "msgEndpoint": "",
+  "title": "dmj74 | پروفایل",
   "profile": {
     "name": "dmj74",
-    "role": "برنامه‌نویس",
+    "role": "",
     "loves": "",
-    "about": "❰ GOD IS WHIT ME ❱\nFind someone who changes your life, not your instagram bio .\n꧁ⒷⓇⒶⓏⒶ ⓋⒶⒸⒽⒾⓎⒶ꧂",
+    "about": "",
     "avatar": {
-      "path": "media/mux9i4rvjmsp.jpg",
+      "path": "media/dmj74-20261025-861594a6-1000062959.jpg",
       "mime": "image/jpeg",
-      "name": "1000062959.jpg"
+      "name": "1000062959.jpg",
+      "dl": 0
     },
-    "avatarText": "م"
+    "avatarText": "d7"
   },
   "bg": {
     "image": null,
-    "opacity": 100,
+    "opacity": 55,
     "code": {
       "on": true,
-      "motion": "med",
-      "opacity": 100,
+      "motion": "high",
+      "opacity": 70,
       "icons": 16,
       "nodes": true,
       "code": true,
@@ -34,27 +35,73 @@
     }
   },
   "media": [],
-  "skills": [],
+  "skills": [
+    {
+      "cat": "زبان‌ها",
+      "items": [
+        "Python",
+        "PHP",
+        "JavaScript",
+        "HTML / CSS"
+      ]
+    },
+    {
+      "cat": "فریم‌ورک‌ها",
+      "items": [
+        "Django",
+        "FastAPI",
+        "Laravel",
+        "React"
+      ]
+    },
+    {
+      "cat": "پایگاه داده",
+      "items": [
+        "MySQL",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    {
+      "cat": "ابزارها",
+      "items": [
+        "Docker",
+        "Linux",
+        "Git"
+      ]
+    }
+  ],
   "projects": [
     {
       "id": "p1",
-      "title": "تیتانلی",
+      "title": "تیتانلی ios",
       "desc": "طراحی و توسعه کامل وب‌سایت، از بک‌اند تا رابط کاربری.",
       "tech": [
         "PHP",
         "Laravel",
         "React"
       ],
-      "image": null,
-      "file": {
-        "name": "titanali-cafebazaar.apk",
-        "ref": {
-          "path": "media/mvlwr3bq6hef.apk",
-          "mime": "application/vnd.android.package-archive",
-          "name": "titanali-cafebazaar.apk"
-        }
+      "image": {
+        "path": "media/dmj74-20261025-cebd56af-1000093146.jpg",
+        "mime": "image/jpeg",
+        "name": "1000093146.jpg",
+        "dl": 0
       },
-      "link": "http://cafebazaar.ir/app/?id=ir.titanali.app&ref=share"
+      "file": null,
+      "link": "https://app.iapps.ir/i/398135119"
+    },
+    {
+      "id": "p2",
+      "title": "ربات‌های تلگرامی",
+      "desc": "ربات‌های اتوماسیون، فروش و پشتیبانی.",
+      "tech": [
+        "Python",
+        "FastAPI",
+        "Redis"
+      ],
+      "image": null,
+      "file": null,
+      "link": ""
     },
     {
       "id": "p3",
@@ -107,17 +154,93 @@
       "image": null
     }
   ],
-  "music": [
+  "products": [
     {
-      "id": "m1791326721296",
-      "title": "آهنگ جدید",
-      "artist": "",
-      "duration": "",
-      "source": "link",
+      "id": "pr1",
+      "title": "قالب پروفایل dmj74",
+      "desc": "همین سایت، آمادهٔ استفاده با پنل مدیریت کامل. فایل ZIP + راهنمای فارسی نصب.",
+      "price": 0,
+      "old": 0,
+      "badge": "رایگان",
+      "cat": "قالب",
+      "kind": "file",
+      "image": null,
+      "file": null,
       "url": "",
-      "file": null
+      "active": true
+    },
+    {
+      "id": "pr2",
+      "title": "ربات تلگرام فروشگاهی",
+      "desc": "ربات آمادهٔ فروش با پنل مدیریت، درگاه پرداخت و گزارش فروش.",
+      "price": 1200000,
+      "old": 1500000,
+      "badge": "پیشنهاد ویژه",
+      "cat": "ربات",
+      "kind": "file",
+      "image": null,
+      "file": null,
+      "url": "",
+      "active": true
+    },
+    {
+      "id": "pr3",
+      "title": "مشاورهٔ پروژه",
+      "desc": "یک ساعت مشاورهٔ فنی دربارهٔ معماری، امنیت و انتخاب تکنولوژی — آنلاین.",
+      "price": 700000,
+      "old": 0,
+      "badge": "",
+      "cat": "خدمات",
+      "kind": "link",
+      "image": null,
+      "file": null,
+      "url": "",
+      "active": true
     }
   ],
+  "pay": {
+    "currency": "تومان",
+    "zarinpal": {
+      "on": true,
+      "link": ""
+    },
+    "zibal": {
+      "on": false,
+      "link": ""
+    },
+    "idpay": {
+      "on": false,
+      "link": ""
+    },
+    "nextpay": {
+      "on": false,
+      "link": ""
+    },
+    "payping": {
+      "on": false,
+      "link": ""
+    },
+    "other": {
+      "on": false,
+      "link": "",
+      "label": "درگاه دیگر"
+    },
+    "card": {
+      "on": false,
+      "number": "",
+      "holder": "",
+      "bank": ""
+    },
+    "crypto": {
+      "on": false,
+      "coin": "USDT",
+      "net": "TRC20",
+      "addr": "",
+      "rate": ""
+    },
+    "note": ""
+  },
+  "orders": [],
   "hobbies": [
     "فوتبال",
     "گیم",
@@ -127,39 +250,119 @@
   "contacts": {
     "telegram": {
       "enabled": true,
-      "id": "dmj74",
-      "address": "dmj74"
+      "id": "your_telegram",
+      "address": "@your_telegram"
     },
     "instagram": {
       "enabled": true,
-      "id": "dmj.74",
-      "address": "dmj.74"
+      "id": "your_instagram",
+      "address": "@your_instagram"
     },
     "email": {
-      "enabled": false,
-      "id": "majeedj01@gmail.com",
-      "address": "majeedj01@gmail.com"
+      "enabled": true,
+      "id": "info@example.com",
+      "address": "info@example.com"
     },
     "youtube": {
       "enabled": true,
-      "id": "dmj 74",
-      "address": "dmj 74"
+      "id": "",
+      "address": ""
     },
     "x": {
       "enabled": true,
-      "id": "dmj_74",
-      "address": "dmj_74"
+      "id": "",
+      "address": ""
     },
     "whatsapp": {
-      "enabled": false,
+      "enabled": true,
       "id": "",
       "address": ""
     },
     "phone": {
-      "enabled": false,
+      "enabled": true,
       "id": "",
       "address": ""
     }
   },
-  "messages": []
+  "messages": [],
+  "menu": [
+    {
+      "id": "projects",
+      "label": "پروژه‌ها",
+      "show": true,
+      "icon": "folder",
+      "grad": "linear-gradient(135deg,#3b82f6,#1d4ed8)"
+    },
+    {
+      "id": "skills",
+      "label": "مهارت‌ها",
+      "show": false,
+      "icon": "code",
+      "grad": "linear-gradient(135deg,#a855f7,#7c3aed)"
+    },
+    {
+      "id": "portfolio",
+      "label": "نمونه‌کارها",
+      "show": false,
+      "icon": "briefcase",
+      "grad": "linear-gradient(135deg,#30d158,#0f9b4a)"
+    },
+    {
+      "id": "gallery",
+      "label": "گالری تصاویر",
+      "show": false,
+      "icon": "image",
+      "grad": "linear-gradient(135deg,#ff9f0a,#ff375f)"
+    },
+    {
+      "id": "music",
+      "label": "موسیقی",
+      "show": false,
+      "icon": "music",
+      "grad": "linear-gradient(135deg,#ff375f,#a855f7)"
+    },
+    {
+      "id": "hobbies",
+      "label": "علاقه‌مندی‌ها",
+      "show": false,
+      "icon": "heart",
+      "grad": "linear-gradient(135deg,#f43f5e,#b91c1c)"
+    },
+    {
+      "id": "social",
+      "label": "شبکه‌ها",
+      "show": false,
+      "icon": "share",
+      "grad": "linear-gradient(135deg,#6366f1,#4338ca)"
+    },
+    {
+      "id": "chat",
+      "label": "پیام",
+      "show": false,
+      "icon": "chat",
+      "grad": "linear-gradient(135deg,#38bdf8,#0369a1)"
+    }
+  ],
+  "sig": "dmj74",
+  "music": [
+    {
+      "id": "m1",
+      "title": "Miss U at Sunset",
+      "artist": "Piano",
+      "duration": "04:06",
+      "source": "link",
+      "url": "",
+      "file": null
+    },
+    {
+      "id": "m2",
+      "title": "I Can’t Get You Out Of My Head",
+      "artist": "Linkin Park",
+      "duration": "03:21",
+      "source": "link",
+      "url": "",
+      "file": null
+    }
+  ],
+  "installedAt": "2026-10-24T06:11:53+03:30"
 }
