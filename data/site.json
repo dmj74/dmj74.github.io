@@ -24,6 +24,7 @@
     "image": null,
     "opacity": 55
   },
+  "media": [],
   "skills": [],
   "projects": [
     {
@@ -36,20 +37,14 @@
         "React"
       ],
       "image": null,
-      "file": null,
-      "link": ""
-    },
-    {
-      "id": "p2",
-      "title": "ربات‌های تلگرامی",
-      "desc": "ربات‌های اتوماسیون، فروش و پشتیبانی.",
-      "tech": [
-        "Python",
-        "FastAPI",
-        "Redis"
-      ],
-      "image": null,
-      "file": null,
+      "file": {
+        "name": "titanali-cafebazaar.apk",
+        "ref": {
+          "path": "media/mvlwr3bq6hef.apk",
+          "mime": "application/vnd.android.package-archive",
+          "name": "titanali-cafebazaar.apk"
+        }
+      },
       "link": ""
     },
     {
