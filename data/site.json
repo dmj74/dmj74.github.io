@@ -22,7 +22,16 @@
   },
   "bg": {
     "image": null,
-    "opacity": 55
+    "opacity": 100,
+    "code": {
+      "on": true,
+      "motion": "med",
+      "opacity": 100,
+      "icons": 16,
+      "nodes": true,
+      "code": true,
+      "iconsOn": true
+    }
   },
   "media": [],
   "skills": [],
